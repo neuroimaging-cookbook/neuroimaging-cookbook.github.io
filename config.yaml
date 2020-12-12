@@ -13,7 +13,7 @@ menu:
       url: recipes/
     - name: Submit a Recipe
       weight: 3
-      url: ''
+      url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes'
 markup:
   goldmark:
     renderer:
@@ -35,16 +35,15 @@ markup:
     ordered: false
     startLevel: 2
 params:
-  repo: 'https://github.com/neuroimaging-cookbook'
+  repo: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/'
   time_format_blog: 'Monday, January 02, 2006'
   time_format_default: 'January 2, 2006'
   enableDarkMode: true
   logo:
-    lightMode: cookbook.png
-    darkMode: cookbook.png
+    lightMode: cookbook_logo_small.png
+    darkMode: cookbook_logo_small.png
   source:
     name: GitHub
-    icon: github.svg
     url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io'
   author:
     name: Neuroimaging Cookbook Contributors
