@@ -5,7 +5,7 @@ title = "Neuroimaging Cookbook"
 {{< block "grid-2 mt-2" >}}
 {{< column >}}
 
-# Compose your Docs with __Ease__.
+# Neuroimaging Cookbook
 
 Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
 
@@ -17,6 +17,6 @@ Note that the theme is built with simplicity in mind. This way, if a suggestion 
 
 {{< /column >}}
 {{< column >}}
-![diy](/images/scribble.jpg)
+![diy](/images/cookbook.png)
 {{< /column >}}
 {{< /block >}}

@@ -1,0 +1,51 @@
+baseURL: 'https://neuroimaging-cookbook.github.io/'
+title: Neuroimaging Cookbook
+enableRobotsTXT: true
+theme: compose
+enableGitInfo: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+menu:
+  main:
+    - name: Recipes
+      weight: 2
+      url: recipes/
+    - name: Submit a Recipe
+      weight: 3
+      url: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      typographer: false
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+    style: monokai
+    tabWidth: 2
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+params:
+  repo: 'https://github.com/neuroimaging-cookbook'
+  time_format_blog: 'Monday, January 02, 2006'
+  time_format_default: 'January 2, 2006'
+  enableDarkMode: true
+  logo:
+    lightMode: cookbook.png
+    darkMode: cookbook.png
+  source:
+    name: GitHub
+    icon: github.svg
+    url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io'
+  author:
+    name: Neuroimaging Cookbook Contributors
+    url: '' # open issue to pull contributors list from GH
