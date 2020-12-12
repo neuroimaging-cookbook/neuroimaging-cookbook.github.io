@@ -1,8 +1,10 @@
 ---
-title: function_name
-tags: [utility,intermediate]
-language: [python]
-software: [AFNI, FSL, SPM, nilearn]
+title: recipe_name
+tags: [extract, mask, roi, etc]
+utility: [cleaning, preprocessing, analysis, etc]
+modality: [fmri, smri, dmri, egg, meg, fnirs, etc]
+language: [python, r, bash, etc]
+software: [afni, fsl, spm, nilearn, etc]
 ---
 
 Explain briefly what the recipe does.
