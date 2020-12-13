@@ -9,8 +9,6 @@ software: [AFNI]
 This recipe converts BRIK/HEAD (AFNI) files to NIFTI (.nii) files using 3dAFNItoNIFTI.
 https://afni.nimh.nih.gov/pub/dist/doc/program_help/3dAFNItoNIFTI.html
 
-Requirements:
-- insert here
 
 
 ```bash
