@@ -1,3 +1,4 @@
-## Guide
+# Neuroimaging Cookbook 🧠🍳📓
+Centralized, simple, searchable code snippets (recipes) for neuroimaging data
 
-This guide covers the necessary bits. As the project evolves, it will only become more comprehensive
+![image](static/images/neuroimaging-cookbook-logo.png)
