@@ -11,6 +11,9 @@ This recipe takes a Representational Dissimilarity Matrix (RDM) as a square nump
 
 Easily adaptable for Representational Similarity Analysis (RSA), Functional/Structural Connectivity analyses, or other analyses with related pipelines with symmetric, square matrices.
 
+Requirements:
+- numpy>=1.18.1
+
 ```py
 def flatten_matrix(square_matrix):
     assert square_matrix.shape[0] == square_matrix.shape[1], "Must be a square numpy array"
