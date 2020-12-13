@@ -15,7 +15,7 @@ Requirements:
 - numpy>=1.18.1
 
 ```py
-def flatten_matrix(square_matrix):
+def flattenRDM(square_matrix):
     assert square_matrix.shape[0] == square_matrix.shape[1], "Must be a square numpy array"
     
     # mask the diagonal and lower triangle and output flattened array
@@ -33,6 +33,6 @@ square_matrix = np.array([[1,0,0,0],
                           [0,0,1,0],
                           [0,0,0,1]])
 
-flatten_matrix(square_matrix)
+flattenRDM(square_matrix)
 ```
 Recipe by [Shawn Rhoads](https://github.com/shawnrhoads)
