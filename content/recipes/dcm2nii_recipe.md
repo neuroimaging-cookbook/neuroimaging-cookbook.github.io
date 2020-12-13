@@ -7,8 +7,9 @@ modalities: [fmri, smri, dmri]
 language: [python]
 software: [AFNI]
 
-authors: [Bari Fuchs]
-github_handle [bfuchs18]
+authors: 
+- name: [Bari Fuchs]
+  github_handle: [bfuchs18]
 ---
 
 This recipe provides code for converting DICOM (.dcm) files to NIFTI (.nii) files
