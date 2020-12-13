@@ -1,0 +1,15 @@
+    {{ $related := .Site.RegularPages.RelatedIndices . "languages" "modalities" "software" "tags" }}
+    {{ with $related }}
+    <h2 class="text-center">These recipes may also be of interest</h2>
+    <ul>
+        {{ range . }}
+        <li class="content-accent"><a href="{{ .RelPermalink }}"><h3 class="active">{{ .Title }}</h3></a>
+            {{ range (.GetTerms "languages") }}
+                <a class="post_tag button button_translucent" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+            <p class="">{{ truncate 140 .Summary }}
+            <a href="{{ .Permalink }}" class="active"> {{ T "read_more" }}</a></p>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}

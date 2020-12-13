@@ -1,0 +1,25 @@
+{{- define "main" }}
+<div class="grid-auto">
+  <main class="">
+    <h1>{{ .Title }}</h1>
+        {{- .Content }}
+        {{ $pages := .Pages }}
+      {{ if .IsHome }}
+        {{ $pages = where site.RegularPages "Type" "recipes" }}
+      {{ end }}
+      <div class="grid-inverse wrap">
+        <ul class="posts" id="posts">
+          {{- range (.Paginate $pages).Pages }}
+            {{ partial "excerpt" . }}
+          {{- end }}
+          <li>
+            {{- template "_internal/pagination.html" . }}
+          </li>
+        </ul>
+      </div>
+
+    {{ partial "pager" . }}
+    </main>
+    {{- partial "sidebar" . }}
+</div>
+{{- end }}
