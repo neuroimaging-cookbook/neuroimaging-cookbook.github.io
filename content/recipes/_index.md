@@ -1,5 +1,4 @@
 ---
-title: This is our cookbook full of flavours
 url: /
 ---
-
+# Centralized, simple, searchable recipes (code snippets) for neuroimaging data
