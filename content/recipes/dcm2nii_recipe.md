@@ -10,6 +10,7 @@ software: [AFNI]
 authors:
 - name: Bari Fuchs
   github_handle: bfuchs18
+---
 
 This recipe provides code for converting DICOM (.dcm) files to NIFTI (.nii) files
 
