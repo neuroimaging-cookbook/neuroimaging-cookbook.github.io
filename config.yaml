@@ -42,9 +42,9 @@ params:
   time_format_blog: '2006/01/02'
   time_format_default: 'January 2, 2006'
   enableDarkMode: true
-  # logo:
-  #   lightMode: cookbook.png
-  #   darkMode: cookbook.png
+  logo:
+    lightMode: logo_lightmode.png
+    darkMode: logo_darkmode.png
   source:
     name: GitHub
     url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io'
