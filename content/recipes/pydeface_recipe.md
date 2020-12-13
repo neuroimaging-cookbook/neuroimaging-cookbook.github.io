@@ -92,4 +92,6 @@ sample-dataset
 - [pydeface github page](https://github.com/poldracklab/pydeface)
 - [t2w scan defacing](https://github.com/poldracklab/pydeface/issues/20#issue-300281118)
 
+Recipe by [Arshitha Basavaraj](https://github.com/Arshitha)
+
 
