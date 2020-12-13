@@ -14,15 +14,15 @@ github_handle: [Arshitha]
 ## Validating BIDS formatted Datasets using `bids-validator` Command Line Tool 
 
 This recipe uses the `bids-validator` v1.5.7 command line tool to verify if a specified dataset conforms to the 
-BIDS specification [1](#ref1). There are other ways to use the bids-validator, this is just one of the methods.
+BIDS specification [\[1\]](#ref1). There are other ways to use the bids-validator, this is just one of the methods.
 
-This is an especially important step if you intend to uses any of the BIDS Apps [2](#ref2)like fMRIPrep, MRIQC, etc [3](#ref3) 
+This is an especially important step if you intend to uses any of the BIDS Apps [\[2\]](#ref2)like fMRIPrep, MRIQC, etc [\[3\]](#ref3) 
 
 ## Ingredients
 - Node.js (at least version 10.11.0) [Installation](https://nodejs.org/en/)
 
 ## Prep
-- Install bids-validator [3](#ref4)
+- Install bids-validator [\[3\]](#ref4)
   ```bash
   $ npm install -g bids-validator
   ```
@@ -72,23 +72,23 @@ Initial `sample-dataset` directory structure:
 ```bash
 sample-dataset
 ├── derivatives
-│   └── pydeface-2.0.0
-│       ├── sub-01
-│       │   ├── sub-01_ses-01_T1w_defaced.nii.gz
-│       │   └── sub-01_ses-01_T2w_defaced.nii.gz
-│       └── sub-02
-│           ├── sub-02_ses-01_T1w_defaced.nii.gz
-│           ├── sub-02_ses-01_T2star_defaced.nii.gz
-│           └── sub-02_ses-01_T2w_defaced.nii.gz
+│   └── pydeface-2.0.0
+│       ├── sub-01
+│       │   ├── sub-01_ses-01_T1w_defaced.nii.gz
+│       │   └── sub-01_ses-01_T2w_defaced.nii.gz
+│       └── sub-02
+│           ├── sub-02_ses-01_T1w_defaced.nii.gz
+│           ├── sub-02_ses-01_T2star_defaced.nii.gz
+│           └── sub-02_ses-01_T2w_defaced.nii.gz
 ├── participants.json
 ├── participants.tsv
 ├── sub-01
-│   └── ses-01
-│       └── anat
-│           ├── sub-01_ses-01_T1w.json
-│           ├── sub-01_ses-01_T1w.nii.gz
-│           ├── sub-01_ses-01_T2w.json
-│           └── sub-01_ses-01_T2w.nii.gz
+│   └── ses-01
+│       └── anat
+│           ├── sub-01_ses-01_T1w.json
+│           ├── sub-01_ses-01_T1w.nii.gz
+│           ├── sub-01_ses-01_T2w.json
+│           └── sub-01_ses-01_T2w.nii.gz
 └── sub-02
     └── ses-01
         └── anat
