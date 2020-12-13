@@ -23,13 +23,12 @@
     {{- range $key, $value := .Site.Taxonomies }}
     {{- if gt $value 0 }}
     <div>
-      <h3 class="taxonomy" id="{{ $key }}-section">{{ $key }}
-      </h3>
+      <h3 class="taxonomy" id="{{ $key }}-section">{{ $key | humanize }} </h3>
         {{- $onPageTags := $.Page.Params.tags }}
         {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
         {{- range $slicedTags }}
-        <a href='/{{$key}}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent">
-          {{ .Name }}
+        <a href='/{{$key}}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent"> <span style="font-variant: small-caps;">
+          {{ .Name | humanize -}}</span> <sup style="">&ensp; ({{- .Count -}})</sup>
         </a>
         {{ end }}
     </div>

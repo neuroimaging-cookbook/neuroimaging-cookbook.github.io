@@ -7,8 +7,9 @@ modalities: [all]
 languages: [bash]
 software: [pydeface, FSL]
 
-authors: [Arshitha Basavaraj]
-github_handle: [Arshitha]
+authors:
+- name: [Arshitha Basavaraj]
+  github_handle: ["Arshitha"]
 ---
 
 ## Defacing Multiple Brain Imaging Modalities using PyDeface 

@@ -2,11 +2,11 @@
   <div>
     <label class="aside_toggle toggle" title='{{ T "docs_menu" }}' role="button">{{ T "docs_menu" }} {{ partial "sprite" (dict "icon" "harmburger") }}</label>
   </div>
-    <section class="section aside_inner">
+    <section class="section aside_inner pb-1">
     {{ partial "post-meta" . }}
 
     </section>
-  {{- template "tree" (dict "page" . "section" .FirstSection)  }}
+  {{/*  {{- template "tree" (dict "page" . "section" .FirstSection)  }}
   {{- define "tree" }}
   {{- $section := .section }}
   {{- $page := .page }}
@@ -30,5 +30,5 @@
       </section>
       {{- end }}
   </section>
-  {{- end }}
+  {{- end }}  */}}
 </aside>
