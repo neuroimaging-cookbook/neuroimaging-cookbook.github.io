@@ -1,0 +1,45 @@
+{{- define "main" }}
+<div class="wrap grid-middle">
+
+	<div class="content content-accent">
+		<h1>{{ .Title }}</h1>
+		{{ with .Params.description }}<div>{{ . | markdownify }}</div>{{ end }}
+		{{- .Content }}
+
+    {{/*  This code is the last line from the recipe including authors'
+          name & github link (couldnt use delimit fun, so had to make this
+          complicated thing that could problem be optimize)  */}}
+
+	{{- if .Params.authors -}} 
+		<p class="text-center p-0">Recipe made by 
+			{{- $count := len .Params.authors -}}
+			{{- range $key, $author := .Params.authors -}}
+				{{- $.Scratch.Add "i" 1 -}}
+				{{- $i := $.Scratch.Get "i" -}}
+				{{- if eq $count 1 -}} 
+					<a href='https://github.com/{{ $author.github_handle }}'> {{ $author.name }}</a>
+				{{- else -}}
+					{{- if ne $key 0 -}}, {{- if eq $count $i }} & {{- end -}} {{- end -}}
+					{{/*  {{ if ne (add $i 1) $len }}  */}}
+					<a href='https://github.com/{{ $author.github_handle }}'>{{ $author.name }}</a>
+					{{- end -}}
+				{{- end -}}
+			{{- else -}}
+		</p> 	
+	{{- end -}}
+
+	</div>
+  {{ partial "related" . }}
+</div>
+
+
+{{- end }}
+
+ {{/*  @eric-roca hack added by SamGuay
+  {{ range $key, $value := .Params.authors }}
+  {{ $author := $value }}
+  {{ $author_urlized = urlize $author }}
+  {{ $ntax := "authors" }}
+  {{ $profile_page := site.GetPage (printf "/%s/%s" $ntax $author_urlized) }}
+  {{ with $profile_page.Params.role }}
+{{ deli}}  */}}

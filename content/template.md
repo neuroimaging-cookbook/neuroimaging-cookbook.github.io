@@ -1,8 +1,9 @@
 ---
 title: function_name
-tags: [utility,intermediate]
-language: [python]
-software: [AFNI, FSL, SPM, nilearn]
+tags: ["utility","intermediate"]
+languages: ["python"]
+modalities: [fMRI, NICE]
+software: ["AFNI", "FSL", "SPM", "nilearn"]
 ---
 
 Explain briefly what the recipe does.

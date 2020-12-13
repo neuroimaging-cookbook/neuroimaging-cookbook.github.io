@@ -3,9 +3,10 @@ title: Neuroimaging Cookbook
 enableRobotsTXT: true
 theme: compose
 enableGitInfo: true
-disableKinds:
-  - taxonomy
-  - taxonomyTerm
+# disableKinds:
+#   - taxonomy
+#   - taxonomyTerm
+
 menu:
   main:
     - name: Recipes
@@ -13,7 +14,8 @@ menu:
       url: recipes/
     - name: Submit a Recipe
       weight: 3
-      url: ''
+      url: 'template/'
+
 markup:
   goldmark:
     renderer:
@@ -34,14 +36,15 @@ markup:
     endLevel: 4
     ordered: false
     startLevel: 2
+
 params:
   repo: 'https://github.com/neuroimaging-cookbook'
-  time_format_blog: 'Monday, January 02, 2006'
+  time_format_blog: '2006/01/02'
   time_format_default: 'January 2, 2006'
   enableDarkMode: true
-  logo:
-    lightMode: cookbook.png
-    darkMode: cookbook.png
+  # logo:
+  #   lightMode: cookbook.png
+  #   darkMode: cookbook.png
   source:
     name: GitHub
     icon: github.svg
@@ -49,3 +52,39 @@ params:
   author:
     name: Neuroimaging Cookbook Contributors
     url: '' # open issue to pull contributors list from GH
+  mobileNavigation: "right" # Mobile nav menu will open to the left of the screen.
+
+  numberOfTagsShown: 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
+  # limit the number of taxonomies links shown on the sidebar of each page by default.
+
+# sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
+  codeMaxLines: 7
+
+# disable showing line numbers by default. Switch to `true` if you'd rather have them on.
+  codeLineNumbers: false
+
+# Taxonomies.
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  language: "languages"
+  software: "software"
+  modality: "modalities"
+
+related:
+  threshold: 80 # A value between 0-100. Lower value will give more, but maybe not so relevant, matches.
+  includeNewer: true # Here our relationship is timeless! This prevents Hugo from ignoring newer posts.
+  toLower: true
+  indices:
+  - name: tags # The name of the indice, same as Front Matter's .Param key.
+    weight: 1 # We don't really need this, but omitting it would disable the indice.
+
+  - name: languages # The name of the indice, same as Front Matter's .Param key.
+    weight: 1 # We don't really need this, but omitting it would disable the indice.
+
+  - name: software # The name of the indice, same as Front Matter's .Param key.
+    weight: 1 # We don't really need this, but omitting it would disable the indice.
+
+  - name: modalities # The name of the indice, same as Front Matter's .Param key.
+    weight: 1 # We don't really need this, but omitting it would disable the indice.

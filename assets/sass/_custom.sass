@@ -1,0 +1,259 @@
+// Added by SamGuay
+
+$light: #fff
+$haze: #fafafa
+$xhaze: darken($haze, 11%)
+$bg: #002538
+$theme: red
+
+
+.post
+  &_link, &_title
+    margin-bottom: 0
+    font: red
+  &s
+    margin-top: 2rem
+  &_header
+    height: 50vh
+    max-height: 35rem
+    background-color: #fff
+    // background-image: url(/images/island.jpg)
+    background-size: cover
+    background-position: center
+    margin-top: 4.2rem
+    @media screen and (max-width: 992px)
+      height: 40vh
+      margin-top: 3rem
+    @media screen and (max-width: 667px)
+      height: 30vh
+    & + .content
+      padding-top: 0
+  &_item
+    // box-shadow: 0  2.25rem 1.25rem -1.25rem var(--shadow)
+    margin-bottom: 3rem
+    border-radius: 0.5rem
+    background: var(--accent)
+  &_tag
+    padding: 0.2rem 0.8rem
+    font-size: 0.8rem
+    &s
+      display: none
+      &.jswidgetopen
+        display: initial
+        position: fixed
+        top: 0
+        left: 0
+        height: 100vh
+        overflow-y: auto
+        width: 100vw
+        padding: 5rem 1.5rem
+        background: var(--translucent-light)
+        cursor: pointer
+        z-index: 999
+        overflow-y: auto
+      &_toggle
+        margin-top: 0.5rem
+        margin-left: 0.5rem
+        cursor: pointer
+  &_tag, &_share
+    margin: 0.5rem
+  &_share
+    display: inline-flex
+  &_meta
+    display: inline-flex
+    flex-flow: row wrap
+    align-items: center
+    .button
+      margin-bottom: 0
+  &_date
+    margin-right: 0.5rem
+    margin-left: 0.25rem
+  &_content
+    a
+      color: $theme
+    ul, ol
+      list-style: initial
+      padding: 0.5rem 1.25rem
+      li
+        padding-top: 0.25rem
+    ol
+      list-style: decimal
+
+.excerpt
+  &_header, &_footer
+    padding: 1rem
+  &_footer
+    padding: 0 1rem 2.25rem 1rem
+  &_thumbnail
+    min-height: 10rem
+    display: none
+    @media screen and (min-width: 769px)
+      display: block 
+      border-radius: 0.5rem
+  &_footer
+    &.partition
+      display: grid
+      @media screen and (min-width: 769px) 
+        grid-template-columns: 2fr 7fr
+        grid-gap: 1rem
+
+.content-accent
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    background: var(--accent);
+    padding: 2rem 1.15rem 1rem 1.15rem;
+
+.text-center
+  text-align: center
+
+.p-0
+  padding-bottom: 0
+
+// @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+// html, body 
+//     overflow-x: hidden;
+//     height: 100%;
+
+// body 
+//     background: #fff;
+//     padding: 0;
+//     margin: 0;
+//     font-family: 'Varela Round', sans-serif;
+
+// .header 
+//     display: block;
+//     margin: 0 auto;
+//     width: 100%;
+//     max-width: 100%;
+//     box-shadow: none;
+//     background-color: #FC466B;
+//     position: fixed;
+//     height: 60px!important;
+//     overflow: hidden;
+//     z-index: 10;
+
+// .main 
+//     margin: 0 auto;
+//     display: block;
+//     height: 100%;
+//     margin-top: 60px;
+
+// .mainInner
+//     display: table;
+//     height: 100%;
+//     width: 100%;
+//     text-align: center;
+
+// .mainInner div
+//     display: table-cell;
+//     vertical-align: middle;
+//     font-size: 3em;
+//     font-weight: bold;
+//     letter-spacing: 1.25px;
+
+// #sidebarMenu 
+//     height: 100%;
+//     position: fixed;
+//     user-select: none;
+//     left: 0;
+//     width: 250px;
+//     margin-top: 60px;
+//     transform: translateX(-250px);
+//     transition: transform 250ms ease-in-out;
+//     background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+
+// .sidebarMenuInner
+//     margin: 0;
+//     padding: 0;
+//     border-top: 1px solid rgba(255, 255, 255, 0.10);
+
+// .sidebarMenuInner li
+//     list-style: none;
+//     color: #fff;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     padding: 20px;
+//     cursor: pointer;
+//     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+
+// .sidebarMenuInner li span
+//     display: block;
+//     font-size: 14px;
+//     color: rgba(255, 255, 255, 0.50);
+
+// .sidebarMenuInner li a
+//     color: #fff;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     cursor: pointer;
+//     text-decoration: none;
+
+// .sidebarMenuInner li:hover
+//     background: rgba(0, 0, 0, 0.10);
+
+// input[type="checkbox"]:checked ~ #sidebarMenu 
+//     transform: translateX(0);
+
+
+// input[type=checkbox] 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     display: none;
+
+// .sidebarIconToggle 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     cursor: pointer;
+//     position: absolute;
+//     z-index: 99;
+//     height: 100%;
+//     width: 100%;
+//     top: 22px;
+//     left: 15px;
+//     height: 22px;
+//     width: 22px;
+
+// .spinner 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     position: absolute;
+//     height: 3px;
+//     width: 100%;
+//     background-color: #fff;
+
+// .horizontal 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     position: relative;
+//     float: left;
+//     margin-top: 3px;
+
+// .diagonal.part-1 
+//     position: relative;
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     float: left;
+
+// .diagonal.part-2 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     position: relative;
+//     float: left;
+//     margin-top: 3px;
+
+// input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     opacity: 0;
+
+// input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     transform: rotate(135deg);
+//     margin-top: 8px;
+
+// input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 
+//     transition: all 0.3s;
+//     box-sizing: border-box;
+//     transform: rotate(-135deg);
+//     margin-top: -9px;

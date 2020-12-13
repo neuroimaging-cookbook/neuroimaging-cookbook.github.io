@@ -1,0 +1,23 @@
+<li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="{{ .Permalink }}">{{ .Title  }}</a>
+      </h3>
+    </div>
+    {{- with .Params.thumbnail }}
+    <div class="excerpt_footer partition">
+      <div class="excerpt_thumbnail">
+        <img src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ absURL . }}{{ end }}'>
+      </div>
+      {{ else }}
+      <div class="excerpt_footer">
+        {{- end }}
+        <div>
+          <p class="pale">{{ truncate 140 .Summary }}
+            <a href="{{ .Permalink }}" class="active"> {{ T "read_more" }}</a></p>
+          </div>
+          {{/*  {{ partial "post-meta" . }}  */}}
+        </div>
+    </div>
+  </li>
