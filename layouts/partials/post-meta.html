@@ -27,8 +27,8 @@
         {{- $onPageTags := $.Page.Params.tags }}
         {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
         {{- range $slicedTags }}
-        <a href='/{{$key}}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent"> <span style="font-variant: small-caps;">
-          {{ .Name | humanize -}}</span> <sup style="">&ensp; ({{- .Count -}})</sup>
+        <a href='/{{$key}}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent" style="text-transform: uppercase;"> 
+          {{ .Name | humanize -}} <span > <sup style="">&ensp; ({{- .Count -}})</sup></span>
         </a>
         {{ end }}
     </div>

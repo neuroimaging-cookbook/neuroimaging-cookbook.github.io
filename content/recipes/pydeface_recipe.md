@@ -8,8 +8,8 @@ languages: [bash]
 software: [pydeface, FSL]
 
 authors:
-- name: [Arshitha Basavaraj]
-  github_handle: ["Arshitha"]
+- name: Arshitha Basavaraj
+  github_handle: Arshitha
 ---
 
 ## Defacing Multiple Brain Imaging Modalities using PyDeface 

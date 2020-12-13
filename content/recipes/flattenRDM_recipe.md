@@ -8,8 +8,8 @@ languages: [python]
 software: [numpy]
 
 authors:
-- name: [Shawn Rhoads]
-  github_handle: [shawnrhoads]
+- name: Shawn Rhoads
+  github_handle: shawnrhoads
 ---
 
 

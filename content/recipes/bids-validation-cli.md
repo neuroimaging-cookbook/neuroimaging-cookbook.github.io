@@ -8,8 +8,8 @@ languages: [bash]
 software: [bids-validator, npm]
 
 authors:
-- name: [Arshitha Basavaraj]
-  github_handle: [Arshitha]
+- name: Arshitha Basavaraj
+  github_handle: Arshitha
 ---
 
 ## Validating BIDS formatted Datasets using `bids-validator` Command Line Tool 

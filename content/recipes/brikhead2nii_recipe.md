@@ -8,8 +8,8 @@ language: [bash]
 software: [AFNI]
 
 authors:
-- name: [Bari Fuchs]
-  github_handle: [bfuchs18]
+- name: Bari Fuchs
+  github_handle: bfuchs18
 ---
 
 This recipe converts BRIK/HEAD (AFNI) files to NIFTI (.nii) files using 3dAFNItoNIFTI.
