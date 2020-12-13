@@ -1,9 +1,9 @@
 ---
 title: PyDeface Recipe
 date: 2020-12-13
-tags: []
+tags: [pydeface, defacing, multiple modalities defacing]
 utilities: [defacing]
-modalities: []
+modalities: [all]
 languages: [python]
 software: [pydeface, FSL]
 
@@ -104,6 +104,4 @@ sample-dataset
 ## Sources: 
 - [pydeface github page](https://github.com/poldracklab/pydeface)
 - [t2w scan defacing](https://github.com/poldracklab/pydeface/issues/20#issue-300281118)
-
-Recipe by [Arshitha Basavaraj](https://github.com/Arshitha)
 
