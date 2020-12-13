@@ -1,0 +1,109 @@
+<!doctype html><html lang=en class=dark><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.79.0"><link rel=apple-touch-icon sizes=180x180 href=https://neuroimaging-cookbook.github.io/favicons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://neuroimaging-cookbook.github.io/favicons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://neuroimaging-cookbook.github.io/favicons/favicon-16x16.png><link rel=manifest href=https://neuroimaging-cookbook.github.io/favicons/site.webmanifest><link rel=mask-icon href=https://neuroimaging-cookbook.github.io/favicons/safari-pinned-tab.svg color=#004750><link rel="shortcut icon" href=https://neuroimaging-cookbook.github.io/favicons/favicon.ico><meta name=msapplication-config content="https://neuroimaging-cookbook.github.io/favicons/browserconfig.xml"><title>PyDeface Recipe | Neuroimaging Cookbook</title><meta property="og:title" content="PyDeface Recipe"><meta property="og:description" content="Defacing Multiple Brain Imaging Modalities using PyDeface For this recipe, we are using pydeface-2.0.0.
+Ingredients:  A python environment with the following dependencies:  FSL 6.0.2 Python 3.7.3 NumPy 1.17.1 NiBabel 2.5.1 Nipype 1.3.0-rc1    Installation:  pip install pydeface  Usage 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23  $ pydeface --help # bash output -------------- pydeface 2."><meta property="og:type" content="article"><meta property="og:url" content="https://neuroimaging-cookbook.github.io/recipes/pydeface_recipe/"><meta property="article:published_time" content="2020-12-13T00:00:00+00:00"><meta property="article:modified_time" content="2020-12-13T16:41:04-05:00"><meta itemprop=name content="PyDeface Recipe"><meta itemprop=description content="Defacing Multiple Brain Imaging Modalities using PyDeface For this recipe, we are using pydeface-2.0.0.
+Ingredients:  A python environment with the following dependencies:  FSL 6.0.2 Python 3.7.3 NumPy 1.17.1 NiBabel 2.5.1 Nipype 1.3.0-rc1    Installation:  pip install pydeface  Usage 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23  $ pydeface --help # bash output -------------- pydeface 2."><meta itemprop=datePublished content="2020-12-13T00:00:00+00:00"><meta itemprop=dateModified content="2020-12-13T16:41:04-05:00"><meta itemprop=wordCount content="364"><meta itemprop=keywords content="pydeface,defacing,multiple modalities,bids,"><meta name=twitter:card content="summary"><meta name=twitter:title content="PyDeface Recipe"><meta name=twitter:description content="Defacing Multiple Brain Imaging Modalities using PyDeface For this recipe, we are using pydeface-2.0.0.
+Ingredients:  A python environment with the following dependencies:  FSL 6.0.2 Python 3.7.3 NumPy 1.17.1 NiBabel 2.5.1 Nipype 1.3.0-rc1    Installation:  pip install pydeface  Usage 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23  $ pydeface --help # bash output -------------- pydeface 2."><link rel=stylesheet href=https://neuroimaging-cookbook.github.io/css/styles.6f49cd9669403b3d4f05f36b2a3ef2e1fdbd5edd557a4a5af41da43304200e585ad062a9cc82dab87ad9818e101d65fbacd2f310cc9830e09bad36de3f65e557.css integrity="sha512-b0nNlmlAOz1PBfNrKj7y4f29Xt1Vekpa9B2kMwQgDlha0GKpzILauHrZgY4QHWX7rNLzEMyYMOCbrTbeP2XlVw=="></head><body class=page-page><header class=nav_header><nav class="wrap nav menu"><a href=https://neuroimaging-cookbook.github.io/ class=nav_brand><picture data-lit=https://neuroimaging-cookbook.github.io/images/logo_lightmode.png data-dark=https://neuroimaging-cookbook.github.io/images/logo_darkmode.png>
+<source srcset=https://neuroimaging-cookbook.github.io/images/logo_darkmode.png media="(prefers-color-scheme: dark)"><img srcset=https://neuroimaging-cookbook.github.io/images/logo_lightmode.png alt="Neuroimaging Cookbook Logo"></picture>
+<label class="nav_toggle toggle" title="Site Menu" role=button><svg class="icon"><use xlink:href="#harmburger"/></svg></label></a><ul class=nav_body><li class=nav-item><div class=search><label for=find class=search_label><svg class="icon"><use xlink:href="#search"/></svg></label><input type=search class=search_field placeholder="Search the docs ..." id=find autocomplete=off><div class="search_results results"></div></div></li><li class=nav-item><a class=nav-link href=https://neuroimaging-cookbook.github.io/><span>Recipes</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes><span>Submit a Recipe</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io target=_blank>GitHub</a></li><li class=nav-item><div class=color_mode><label for=mode></label><input type=checkbox class=color_choice id=mode title="Toggle Dark Mode"></div></li></ul></nav></header><div class="main pt-2"><div class="wrap grid-middle"><div class="content content-accent"><h1>PyDeface Recipe</h1><h2 id=defacing-multiple-brain-imaging-modalities-using-pydeface>Defacing Multiple Brain Imaging Modalities using PyDeface</h2><p>For this recipe, we are using pydeface-2.0.0.</p><h2 id=ingredients>Ingredients:</h2><ul><li>A python environment with the following dependencies:<ul><li>FSL 6.0.2</li><li>Python 3.7.3</li><li>NumPy 1.17.1</li><li>NiBabel 2.5.1</li><li>Nipype 1.3.0-rc1</li></ul></li></ul><h2 id=installation>Installation:</h2><ul><li><code>pip install pydeface</code></li></ul><h2 id=usage>Usage</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ pydeface --help
+<span class=c1># bash output</span>
+--------------
+pydeface 2.0.0
+--------------
+usage: pydeface <span class=o>[</span>-h<span class=o>]</span> <span class=o>[</span>--outfile path<span class=o>]</span> <span class=o>[</span>--force<span class=o>]</span> <span class=o>[</span>--applyto  <span class=o>[</span>...<span class=o>]]</span> <span class=o>[</span>--cost mutualinfo<span class=o>]</span> <span class=o>[</span>--template path<span class=o>]</span> <span class=o>[</span>--facemask path<span class=o>]</span> <span class=o>[</span>--nocleanup<span class=o>]</span> <span class=o>[</span>--verbose<span class=o>]</span>
+                <span class=o>[</span>--debug<span class=o>]</span>
+                path
+
+positional arguments:
+  path               Path to input nifti.
+
+optional arguments:
+  -h, --help         show this <span class=nb>help</span> message and <span class=nb>exit</span>
+  --outfile path     If not provided adds <span class=s1>&#39;_defaced&#39;</span> suffix.
+  --force            Force to rewrite the output even <span class=k>if</span> it exists.
+  --applyto  <span class=o>[</span> ...<span class=o>]</span>  Apply the created face mask to other images. Can take multiple arguments.
+  --cost mutualinfo  FSL-FLIRT cost <span class=k>function</span>. Default is <span class=s1>&#39;mutualinfo&#39;</span>.
+  --template path    Optional template image that will be used as the registration target instead of the default.
+  --facemask path    Optional face mask image that will be used instead of the default.
+  --nocleanup        Do not cleanup temporary files. Off by default.
+  --verbose          Show additional status prints. Off by default.
+  --debug            Do not catch exceptions and show exception traceback <span class=o>(</span>Drop into pdb debugger<span class=o>)</span>.
+</code></pre></td></tr></table></div></div><h2 id=example-usage>Example Usage</h2><ul><li><strong>Case 1</strong>: Using default facemask and template<br>For a dataset with only T1w images, the defaults do a good job of defacing</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ mkdir pydeface-out
+$ pydeface infile_T1w.nii.gz --outfile ./pydeface-out/infile_T1w_defaced.nii.gz
+</code></pre></td></tr></table></div></div><ul><li><strong>Case 2</strong>: Using subject-specific templates with the <code>--template</code> flag
+Example directory tree of a sample dataset with multiple modalities</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>sample-dataset
+├── sub-01
+│   ├── sub-01_ses-01_T1w.nii.gz
+│   └── sub-01_ses-01_FLAIR.nii.gz
+└── sub-02
+    ├── sub-02_ses-01_T1w.nii.gz
+    ├── sub-02_ses-01_T2w.nii.gz
+    └── sub-02_ses-01_T2star.nii.gz
+</code></pre></td></tr></table></div></div><p>Commands to deface <code>sub-02</code> are shown below.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ <span class=nb>cd</span> ./sub-02
+$ pydeface sub-02_ses-01_T1w.nii.gz
+</code></pre></td></tr></table></div></div><p>This will output a defaced image with <code>sub-02_ses-01_T1w_defaced.nii.gz</code></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ pydeface sub-02_ses-01_T2w.nii.gz --template sub-02_ses-01_T1w.nii.gz 
+$ pydeface sub-02_ses-01_T2star.nii.gz --template sub-02_ses-01_T1w.nii.gz  
+</code></pre></td></tr></table></div></div><p>Final directory tree:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>sample-dataset
+├── sub-01
+│   ├── sub-01_ses-01_T1w.nii.gz
+│   └── sub-01_ses-01_T2w.nii.gz
+└── sub-02
+    ├── sub-02_ses-01_T1w.nii.gz
+    ├── sub-02_ses-01_T1w_defaced.nii.gz
+    ├── sub-02_ses-01_T2star.nii.gz
+    ├── sub-02_ses-01_T2star_defaced.nii.gz
+    ├── sub-02_ses-01_T2w.nii.gz
+    └── sub-02_ses-01_T2w_defaced.nii.gz
+</code></pre></td></tr></table></div></div><h2 id=sources>Sources:</h2><ul><li><a href=https://github.com/poldracklab/pydeface>pydeface github page</a></li><li><a href=https://github.com/poldracklab/pydeface/issues/20#issue-300281118>t2w scan defacing</a></li></ul><p class="text-center p-0">Recipe made by<a href=https://github.com/[Arshitha]> [Arshitha Basavaraj]</a></div><h2 class=text-center>These recipes may also be of interest</h2><ul><li class=content-accent><a href=/recipes/bids-validation-cli/><h3 class=active>BIDS Validation Recipe</h3></a><a class="post_tag button button_translucent" href=https://neuroimaging-cookbook.github.io/languages/bash/>bash</a><p>Validating BIDS formatted Datasets using bids-validator Command Line Tool This recipe uses the bids-validator v1.5.7 command line tool to …
+<a href=https://neuroimaging-cookbook.github.io/recipes/bids-validation-cli/ class=active>Read More</a></p></li><li class=content-accent><a href=/recipes/automatically-generated-recipe/><h3 class=active>Automatically Generated Recipe</h3></a><a class="post_tag button button_translucent" href=https://neuroimaging-cookbook.github.io/languages/python/>python</a>
+<a class="post_tag button button_translucent" href=https://neuroimaging-cookbook.github.io/languages/r/>r</a>
+<a class="post_tag button button_translucent" href=https://neuroimaging-cookbook.github.io/languages/bash/>bash</a><p>Explain briefly what the recipe does. Explain briefly how the recipe works. Provide a citation and link to documentation of any third party …
+<a href=https://neuroimaging-cookbook.github.io/recipes/automatically-generated-recipe/ class=active>Read More</a></p></li><li class=content-accent><a href=/template/><h3 class=active>function_name</h3></a><a class="post_tag button button_translucent" href=https://neuroimaging-cookbook.github.io/languages/python/>python</a><p>Explain briefly what the recipe does.
+Explain briefly how the recipe works. Provide a citation and link to documentation of any third party …
+<a href=https://neuroimaging-cookbook.github.io/template/ class=active>Read More</a></p></li></ul></div></div><footer class="pt-2 pb-2"><div class=wrap><p>&copy; <span class=year>2020</span> <a href=https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io target=_blank rel=noopener>Neuroimaging Cookbook Contributors</a></p></div></footer><svg width="0" height="0" class="hidden"><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" id="next"><path d="M484.14 226.886 306.46 49.202c-5.072-5.072-11.832-7.856-19.04-7.856-7.216.0-13.972 2.788-19.044 7.856l-16.132 16.136c-5.068 5.064-7.86 11.828-7.86 19.04.0 7.208 2.792 14.2 7.86 19.264L355.9 207.526H26.58C11.732 207.526.0 219.15.0 234.002v22.812c0 14.852 11.732 27.648 26.58 27.648h330.496L252.248 388.926c-5.068 5.072-7.86 11.652-7.86 18.864.0 7.204 2.792 13.88 7.86 18.948l16.132 16.084c5.072 5.072 11.828 7.836 19.044 7.836 7.208.0 13.968-2.8 19.04-7.872l177.68-177.68c5.084-5.088 7.88-11.88 7.86-19.1.016-7.244-2.776-14.04-7.864-19.12z"/></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999" id="search"><path d="M508.874 478.708 360.142 329.976c28.21-34.827 45.191-79.103 45.191-127.309C405.333 90.917 314.416.0 202.666.0S0 90.917.0 202.667s90.917 202.667 202.667 202.667c48.206.0 92.482-16.982 127.309-45.191l148.732 148.732c4.167 4.165 10.919 4.165 15.086.0l15.081-15.082c4.165-4.166 4.165-10.92-.001-15.085zM202.667 362.667c-88.229.0-160-71.771-160-160s71.771-160 160-160 160 71.771 160 160-71.771 160-160 160z"/></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 179" id="harmburger"><path d="M1 10C1 4.477 5.477.0 11 0h220c5.523.0 10 4.477 10 10s-4.477 10-10 10H11C5.477 20 1 15.523 1 10zm0 80c0-5.523 4.477-10 10-10h220c5.523.0 10 4.477 10 10s-4.477 10-10 10H11c-5.523.0-10-4.477-10-10zm9 69c-5.523.0-10 4.477-10 10s4.477 10 10 10h220c5.523.0 10-4.477 10-10s-4.477-10-10-10H10z"/></symbol></svg><script src=https://neuroimaging-cookbook.github.io/js/bundle.min.5af5a71cb7087a1e6a1579c029c74e083fa41198bfb107602ad29f77f53a4748cb3f09e998b78e1a26c952cede95c2f4d402b88c25591b16ff59f800220e4246.js></script><script src=https://neuroimaging-cookbook.github.io/js/search.min.a9cc7624ccd448b9d7d2cf9541526e0d453e82b78e3a42478b78ecb3e05639a35513ee57aa7082e2a7a284ef647037339a934e08bec142b376e7402a5fffacfe.js async defer></script></body></html>
