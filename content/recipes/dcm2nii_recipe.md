@@ -1,9 +1,14 @@
 ---
 title: Convert DICOM files to NIFTI files
-tags: [convert,dicom, nifti]
-modality: [fmri, smri, dmri, egg, meg, fnirs]
+date: 2020-12-13
+tags: [convert, dicom, nifti]
+utilities: [cleaning, preprocessing]
+modality: [fmri, smri, dmri]
 language: [python]
-software: [AFNI, FSL, SPM, nilearn]
+software: [AFNI]
+
+authors: [Bari Fuchs]
+github_handle [bfuchs18]
 ---
 
 This recipe provides code for converting DICOM (.dcm) files to NIFTI (.nii) files
