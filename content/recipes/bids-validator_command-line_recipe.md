@@ -170,7 +170,11 @@ BIDS Validator errors are quite informative so cross referencing those with BIDS
 
 ## Sources 
 <a name="ref1"></a>[BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
+
 <a name="ref2"></a>[BIDS Apps](https://bids-apps.neuroimaging.io/)
+
 <a name="ref3"></a>[Available BIDS Apps](https://bids-apps.neuroimaging.io/apps/)
+
 <a name="ref4"></a>[BIDS Validator GitHub Page](https://github.com/bids-standard/bids-validator)
+
 <a name="ref5"></a>[Modality Agnostic Files](https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html)
