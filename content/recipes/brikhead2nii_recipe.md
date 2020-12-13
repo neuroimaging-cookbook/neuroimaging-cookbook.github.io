@@ -3,7 +3,7 @@ title: Using 3dAFNItoNIFTI to convert AFNI files to NIFTI files
 date: 2020-12-13
 tags: [convert, brik, head, nifti]
 utilities: [cleaning, preprocessing]
-modality: [fmri, smri, dmri]
+modalities: [fmri, smri, dmri]
 language: [bash]
 software: [AFNI]
 
