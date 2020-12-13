@@ -1,11 +1,17 @@
 ---
 title: Mask lower triangle of a Representational Dissimilarity Matrix (RDM)
+date: 2020-12-13
 tags: [vectorize, flatten, representational similarity, connectivity, rsa, functional connectivity, structural connectivity, rdm, lower triangle, mask, array, matrix]
-utility: [preprocessing]
-modality: [any]
-language: [python]
+utilities: [preprocessing]
+modalities: [any]
+languages: [python]
 software: [numpy]
+
+authors:
+- name: [Shawn Rhoads]
+  github_handle: [shawnrhoads]
 ---
+
 
 This recipe takes a Representational Dissimilarity Matrix (RDM) as a square numpy array, masks the diagonal and lower triangle, and outputs a flattened numpy array of the upper triangle. 
 
@@ -35,4 +41,3 @@ square_matrix = np.array([[1,0,0,0],
 
 flattenRDM(square_matrix)
 ```
-Recipe by [Shawn Rhoads](https://github.com/shawnrhoads)

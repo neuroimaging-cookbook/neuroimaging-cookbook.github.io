@@ -1,17 +1,17 @@
 ---
 title: Automatically Generated Recipe
-date: 2020-12-12T18:42:29-05:00
-tags: [extract, mask, roi, etc]
-utilities: [cleaning, preprocessing, analysis, etc]
-modalities: [fmri, smri, dmri, egg, meg, fnirs, etc]
-languages: [python, r, bash, etc]
-software: [afni, fsl, spm, nilearn, etc]
+date: 2020-12-11T12:42:29-05:00
+tags: [extract, mask, roi]
+utilities: [cleaning, preprocessing, analysis]
+modalities: [fmri, smri, dmri, egg, meg, fnirs]
+languages: [python, r, bash]
+software: [afni, fsl, spm, nilearn]
 
 authors:
-- name: Neuroimaging Cookbook Team
+- name: Neuroimaging Cook 1
   github_handle: neuroimaging-cookbook
-- name: Samuel Guay
-  github_handle: SamGuay
+- name: Neuroimaging Cook 2
+  github_handle: neuroimaging-cookbook
 
 description: This recipe will show you how to... make a recipe!
 ---
