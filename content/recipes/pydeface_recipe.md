@@ -1,17 +1,17 @@
 ---
 title: PyDeface Recipe
 date: 2020-12-13
-tags: []
+tags: [pydeface, defacing, multiple modalities, bids]
 utilities: [defacing]
-modalities: []
-languages: [python]
+modalities: [all]
+languages: [bash]
 software: [pydeface, FSL]
 
 authors: [Arshitha Basavaraj]
 github_handle: [Arshitha]
 ---
 
-## Defacing Brain MRI using PyDeface 
+## Defacing Multiple Brain Imaging Modalities using PyDeface 
 
 For this recipe, we are using pydeface-2.0.0. 
 
@@ -104,6 +104,3 @@ sample-dataset
 ## Sources: 
 - [pydeface github page](https://github.com/poldracklab/pydeface)
 - [t2w scan defacing](https://github.com/poldracklab/pydeface/issues/20#issue-300281118)
-
-Recipe by [Arshitha Basavaraj](https://github.com/Arshitha)
-
