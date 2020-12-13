@@ -26,7 +26,7 @@ def flattenRDM(square_matrix):
 
 ## Example usage:
 ```py
-import pandas as pd, numpy as np
+import numpy as np
 
 square_matrix = np.array([[1,0,0,0],
                           [0,1,0,0],
