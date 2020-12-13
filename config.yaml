@@ -11,7 +11,7 @@ menu:
   main:
     - name: Recipes
       weight: 2
-      url: recipes/
+      url: /
     - name: Submit a Recipe
       weight: 3
       url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes'
@@ -50,7 +50,7 @@ params:
     url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io'
   author:
     name: Neuroimaging Cookbook Contributors
-    url: '' # open issue to pull contributors list from GH
+    url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io' # open issue to pull contributors list from GH
 
   numberOfTagsShown: 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
   # limit the number of taxonomies links shown on the sidebar of each page by default.
@@ -65,7 +65,7 @@ params:
 taxonomies:
   category: categories
   tag: tags
-  series: series
+  # series: series
   language: "languages"
   software: "software"
   modality: "modalities"
