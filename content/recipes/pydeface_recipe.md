@@ -1,3 +1,16 @@
+---
+title: PyDeface Recipe
+date: 2020-12-13
+tags: []
+utilities: [defacing]
+modalities: []
+languages: [python]
+software: [pydeface, FSL]
+
+authors: [Arshitha Basavaraj]
+github_handle: [Arshitha]
+---
+
 ## Defacing Brain MRI using PyDeface 
 
 For this recipe, we are using pydeface-2.0.0. 
@@ -93,5 +106,4 @@ sample-dataset
 - [t2w scan defacing](https://github.com/poldracklab/pydeface/issues/20#issue-300281118)
 
 Recipe by [Arshitha Basavaraj](https://github.com/Arshitha)
-
 
