@@ -4,7 +4,7 @@ date: 2020-12-14
 tags: [template, getting started]
 languages: [python, markdown]
 modalities: [fMRI]
-software: []
+software: [github]
 
 authors:
 - name: Shawn Rhoads
