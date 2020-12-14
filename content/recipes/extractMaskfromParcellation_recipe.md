@@ -19,6 +19,7 @@ Ingredients:
 - [3dcalc](https://afni.nimh.nih.gov/pub/dist/doc/program_help/3dcalc.html)
 
 ## Example usage:
+This example uses the [Harvard Oxford Atlas](http://www.nitrc.org/frs/download.php/9902/HarvardOxford.tgz)
 ```bash
 #!/bin/bash
 
