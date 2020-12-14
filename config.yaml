@@ -12,9 +12,9 @@ menu:
     - name: Recipes
       weight: 2
       url: /
-    - name: Submit a Recipe
+    - name: About
       weight: 3
-      url: 'https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes'
+      url: /about
 
 markup:
   goldmark:
