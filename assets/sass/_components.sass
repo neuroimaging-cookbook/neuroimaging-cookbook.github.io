@@ -23,12 +23,12 @@
   justify-content: flex-end
   position: relative
   &_field
-    padding: 0.5rem 1.5rem 0.5rem 2.5rem
+    padding: 0.5rem 1.5rem 0.5rem 5rem
     border-radius: 1.5rem
     width: 100%
     outline: none
     border: none
-    background: transparent
+    background: var(--accent)
     color: var(--text)
     box-shadow: 0 1rem 4rem rgba(0,0,0,0.17)
     font-size: 1rem
@@ -71,15 +71,15 @@
     text-transform: uppercase
 
 .button
-  background-color: var(--theme)
+  background-color: rgb(180, 128, 230)
   color: var(--dark)
   border-radius: 0.25rem
   display: inline-flex
   padding: 0.75rem 1.5rem
   text-align: center
-  opacity: 0.8
+  opacity: 1
   &:hover
-    opacity: 1
+    opacity: .8
   & + &
     @media screen and (min-width: 20rem)
       margin-left: 0.5rem
