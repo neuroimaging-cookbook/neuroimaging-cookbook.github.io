@@ -1,0 +1,2 @@
+Goal: create a contributor bot that
+auto generates a contributors page based on commits
