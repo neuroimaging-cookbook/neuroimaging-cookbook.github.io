@@ -47,4 +47,4 @@ function_name(val) # result
 ```
 Please copy the text from this template [HERE](https://raw.githubusercontent.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/main/content/template_recipe.md) and submit your recipe using the following link:
 
-{{< button "https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes/" "Open new recipe" >}}
+{{< button "https://neuroimaging-cookbook.github.io/template_recipe/" "Open new recipe" >}}
