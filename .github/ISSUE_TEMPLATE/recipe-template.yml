@@ -24,7 +24,7 @@ body:
         - label: bash
         - label: markdown
         - label: other (specify below)
-  - type: input
+  - type: checkboxes
     id: Modalities
     attributes:
       label: To which modalities does your recipe apply?
@@ -41,7 +41,7 @@ body:
         - label: other (specify below)
     validations:
       required: true
-  - type: input
+  - type: checkboxes
     id: Software
     attributes:
       label: Which software does your recipe require?
