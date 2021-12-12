@@ -14,7 +14,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://shawnrhoads.github.io"><img src="https://avatars.githubusercontent.com/u/24925845?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shawn Rhoads</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=shawnrhoads" title="Code">💻</a></td>
+    <td align="center"><a href="http://shawnrhoads.github.io"><img src="https://avatars.githubusercontent.com/u/24925845?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shawn Rhoads</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=shawnrhoads" title="Code">💻</a> <a href="#ideas-shawnrhoads" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
