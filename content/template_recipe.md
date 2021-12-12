@@ -50,4 +50,4 @@ You can submit your recipe by copying the text from this template [HERE](https:/
 
 Alternatively, you can suggest a recipe below.
 
-{{< button href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/issues/new?assignees=shawnrhoads&labels=recipe&template=recipe-template.yml&title=%5BRecipe%5D%3A+" "Suggest new recipe" >}}
+{{< button "https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/issues/new?assignees=shawnrhoads&labels=recipe&template=recipe-template.yml&title=%5BRecipe%5D%3A+" "Suggest new recipe" >}}
