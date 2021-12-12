@@ -17,7 +17,7 @@ body:
     id: Language
     attributes:
       label: What language are you using?
-      multiple: true
+      description: You may select more than one.
       options:
         - label: python
         - label: R
@@ -28,7 +28,7 @@ body:
     id: Modalities
     attributes:
       label: To which modalities does your recipe apply?
-      multiple: true
+      description: You may select more than one.
       options:
         - label: fmri
         - label: dmri
@@ -45,7 +45,7 @@ body:
     id: Software
     attributes:
       label: Which software does your recipe require?
-      multiple: true
+      description: You may select more than one.
       options:
         - label: afni
         - label: fsl
