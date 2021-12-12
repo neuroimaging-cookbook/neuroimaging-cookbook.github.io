@@ -12,8 +12,15 @@
       "profile": "http://shawnrhoads.github.io",
       "contributions": [
         "code",
-        "ideas"
-      ]
+        "ideas"]},
+     { 
+      "login": "dmoracze",
+      "name": "Dustin Moraczewski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7197889?v=4",
+      "profile": "https://cmn.nimh.nih.gov/dsst",
+      "contributions": [
+        "code"]}
+        ]
     }
   ],
   "contributorsPerLine": 7,
