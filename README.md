@@ -1,6 +1,6 @@
 # Neuroimaging Cookbook 🧠🍳📓
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Centralized, simple, searchable code snippets (recipes) for neuroimaging data
 
@@ -19,6 +19,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SamGuay"><img src="https://avatars.githubusercontent.com/u/30598330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samuel Guay</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=SamGuay" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/bfuchs18"><img src="https://avatars.githubusercontent.com/u/34322503?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bari Fuchs</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=bfuchs18" title="Code">💻</a></td>
     <td align="center"><a href="http://cmn.nimh.nih.gov/dsst"><img src="https://avatars.githubusercontent.com/u/10297203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arshitha Basavaraj</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=Arshitha" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/llevitis"><img src="https://avatars.githubusercontent.com/u/17363738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Liza Levitis</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=llevitis" title="Code">💻</a></td>
   </tr>
 </table>
 
