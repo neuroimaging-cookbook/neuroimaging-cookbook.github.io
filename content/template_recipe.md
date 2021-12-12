@@ -45,6 +45,9 @@ If your code snippet includes a custom function, then please provide an example 
 ```py
 function_name(val) # result
 ```
-Please copy the text from this template [HERE](https://raw.githubusercontent.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/main/content/template_recipe.md) and submit your recipe using the following link:
 
-{{< button "https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/new/main/content/recipes/" "Open new recipe" >}}
+You can submit your recipe by copying the text from this template [HERE](https://raw.githubusercontent.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/main/content/template_recipe.md) and submiting your recipe by submitting a pull request.
+
+Alternatively, you can suggest a recipe below.
+
+{{< button "https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/issues/new?assignees=shawnrhoads&labels=recipe&template=recipe-template.yml&title=%5BRecipe%5D%3A+" "Suggest new recipe" >}}
