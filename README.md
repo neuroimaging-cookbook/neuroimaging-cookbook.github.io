@@ -14,7 +14,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/scovitz"><img src="https://avatars.githubusercontent.com/u/70981267?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sydney Covitz</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=scovitz" title="Code">💻</a> <a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/issues?q=author%3Ascovitz" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/scovitz"><img src="https://avatars.githubusercontent.com/u/70981267?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sydney Covitz</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=scovitz" title="Code">💻</a> <a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/issues?q=author%3Ascovitz" title="Bug reports">🐛</a> <a href="#design-scovitz" title="Design">🎨</a></td>
   </tr>
 </table>
 
