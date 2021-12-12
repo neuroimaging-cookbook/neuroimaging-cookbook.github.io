@@ -54,4 +54,4 @@ NOTE: If you are a maintainer of this repo and want to check who needs to be add
 
  ```yarn add-contributors check ```
 
-to see the names of new contributors who need to be added and add them
+to see the names of new contributors who need to be added.
