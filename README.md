@@ -50,7 +50,7 @@ Step 4: Run the following command to add your updates to the .all-contributorsrc
 
  ```yarn add-contributors generate ```
 
-NOTE: If you are a maintainer of this repository and want to check who needs to be added, run
+NOTE: If you are a maintainer of this repository and want to see which developers have not yet been added as contributors,
 
  ```yarn add-contributors check ```
 
