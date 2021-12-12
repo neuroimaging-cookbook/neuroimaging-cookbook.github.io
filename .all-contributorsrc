@@ -6,13 +6,21 @@
   "commit": false,
   "contributors": [
     {
+      "login": "shawnrhoads",
+      "name": "Shawn Rhoads",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24925845?v=4",
+      "profile": "http://shawnrhoads.github.io",
+      "contributions": [
+        "code",
+        "ideas"]},
+     { 
       "login": "dmoracze",
       "name": "Dustin Moraczewski",
       "avatar_url": "https://avatars.githubusercontent.com/u/7197889?v=4",
       "profile": "https://cmn.nimh.nih.gov/dsst",
       "contributions": [
-        "code"
-      ]
+        "code"]}
+        ]
     }
   ],
   "contributorsPerLine": 7,
