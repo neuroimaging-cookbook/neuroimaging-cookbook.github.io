@@ -32,7 +32,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 # Documentation on how to auto-generate contributors
 Adding Developers as Contributors to this Repository
 
-First, make sure you have this repository cloned locally and yarn installed Navigate to the root of your local clone of this repository, and run the following command:
+First, make sure you have this repository cloned locally and yarn installed. Navigate to the root of your local clone of this repository, and run the following command:
 
  ```yarn add-contributors "GITHUB USERNAME" "CONTRIBUTION" ```
 
