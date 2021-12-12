@@ -7,7 +7,7 @@ description:
   Use this template to suggest a new recipe! Please see [this page](https://neuroimaging-cookbook.github.io/template_recipe/) for guidelines on recipes.
 body:
   - type: textarea
-    id: description
+    id: Description
     attributes:
       label: Description
       description: Please describe the recipe.
@@ -15,28 +15,86 @@ body:
       value: ""
     validations:
       required: true
+  - type: checkboxes
+    id: Language
+    attributes:
+      label: What language are you using?
+      options:
+        - label: python
+        - label: R
+        - label: bash
+        - label: markdown
+        - label: other (specify below)
+  - type: input
+    id: Modalities
+    attributes:
+      label: To which modalities does your recipe apply?
+      options:
+        - label: fmri
+        - label: dmri
+        - label: smri
+        - label: eeg
+        - label: fnirs
+        - label: meg
+        - label: any
+        - label: all
+        - label: other (specify below)
+    validations:
+      required: true
+  - type: input
+    id: Software
+    attributes:
+      label: Which software does your recipe require?
+      options:
+        - label: afni
+        - label: fsl
+        - label: spm
+        - label: nilearn
+        - label: numpy
+        - label: pandas
+        - label: scipy
+        - label: other (specify below)
+    validations:
+      required: true
+  - type: input
+    id: Tags
+    attributes:
+      label: Tags
+      description: Please list some other tags that will help users find your recipe.
+      placeholder: e.g., mask, nifti, array, roi, connectivity
+    validations:
+      required: true
   - type: textarea
-    id: ingredients
+    id: Ingredients
     attributes:
       label: Ingredients
       description: Please specify the ingredients / software packages / dependencies (and versions) required for this recipe
       placeholder: Use bullet points here.
     validations:
       required: true
-  - type: input
-    id: Language
-    attributes:
-      label: Language
-      description: What language are you using?
-      placeholder: python, R, bash, etc.
-    validations:
-      required: true
   - type: textarea
+    id: Recipe
     attributes:
       label: What is your recipe?
       description: Your recipe should be concise. **Your code snippet should be roughly 1-10 lines.** Please do not exceed 100 lines.
+      render: shell
     validations:
       required: true
+  - type: textarea
+    id: Example
+    attributes:
+      label: What is your example?
+      description: Please provide a short example using your recipe.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: AdditionalInfo
+    attributes:
+      label: Anything else?
+      description: Is there any other information important for your recipe?
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
