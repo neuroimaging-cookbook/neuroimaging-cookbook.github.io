@@ -9,6 +9,7 @@ body:
   - type: textarea
     id: Description
     attributes:
+      value: "Recipe Description"
       description: Please describe the recipe.
       placeholder: Explain briefly how the recipe works. Provide a link to documentation of any third-party software when possible. Try to explain everything briefly, but clearly.
     validations:
@@ -68,6 +69,7 @@ body:
   - type: textarea
     id: Ingredients
     attributes:
+      value: "Recipe Ingredients"
       label: Ingredients
       description: Please specify the ingredients / software packages / dependencies (and versions) required for this recipe
       placeholder: Use bullet points here.
@@ -76,6 +78,7 @@ body:
   - type: textarea
     id: Recipe
     attributes:
+      value: "Recipe Contents"
       label: What is your recipe?
       description: Your recipe should be concise. **Your code snippet should be roughly 1-10 lines.** Please do not exceed 100 lines.
       render: shell
@@ -84,6 +87,7 @@ body:
   - type: textarea
     id: Example
     attributes:
+      value: "Recipe Example"
       label: What is your example?
       description: Please provide a short example using your recipe.
       render: shell
@@ -92,6 +96,7 @@ body:
   - type: textarea
     id: AdditionalInfo
     attributes:
+      value: "Additional Recipe Information"
       label: Anything else?
       description: Is there any other information important for your recipe?
     validations:
