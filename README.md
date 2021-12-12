@@ -32,13 +32,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 # Documentation on how to auto-generate contributors
 Adding Developers as Contributors to this Repository
 
-Step 1: Make sure you have this repository cloned locally:
-
- ```git clone https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io.git ./neuroimaging-cookbook ```
-
-Step 2: Make sure you have yarn installed.
-
-Step 3: Navigate to the root of your local clone of this repository, and run the following command:
+First, make sure you have this repository cloned locally and yarn installed Navigate to the root of your local clone of this repository, and run the following command:
 
  ```yarn add-contributors "GITHUB USERNAME" "CONTRIBUTION" ```
 
@@ -46,12 +40,14 @@ e.g.
 
  ```yarn add-contributors tsmith code ```
 
-Step 4: Run the following command to add your contributor updates to the table in the README:
+Run the following command to add your contributor updates to the table in the README:
 
  ```yarn add-contributors generate ```
 
-NOTE: If you are a maintainer of this repository and want to see which developers have not yet been added as contributors,
+NOTE: If you are a maintainer of this repository and want to see which developers have not yet been added as contributors, run
 
  ```yarn add-contributors check ```
 
-to see the names of new contributors who need to be added.
+Then you can ```yarn all-contributors add``` the usernames that come up
+
+Remember to push the .all-contributorsrc and README.md files back to GitHub once you are done adding and generating contributors!
