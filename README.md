@@ -46,7 +46,7 @@ e.g.
 
  ```yarn add-contributors tsmith code ```
 
-Step 4: Run the following command to add your updates to the .all-contributorsrc file to the README:
+Step 4: Run the following command to add your contributor updates to the table in the README:
 
  ```yarn add-contributors generate ```
 
