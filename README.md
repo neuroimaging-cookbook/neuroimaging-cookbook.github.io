@@ -1,6 +1,6 @@
 # Neuroimaging Cookbook 🧠🍳📓
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -17,6 +17,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/shawnrhoads"><img src="https://avatars.githubusercontent.com/u/24925845?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shawn Rhoads</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=shawnrhoads" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/scovitz"><img src="https://avatars.githubusercontent.com/u/70981267?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sydney Covitz</b></sub></a><br /><a href="https://github.com/neuroimaging-cookbook/neuroimaging-cookbook.github.io/commits?author=scovitz" title="Code">💻</a></td>
   </tr>
 </table>
 
