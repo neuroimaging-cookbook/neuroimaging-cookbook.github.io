@@ -13,11 +13,18 @@
       "contributions": [
         "code",
         "ideas"]},
-     { 
+     {
       "login": "dmoracze",
       "name": "Dustin Moraczewski",
       "avatar_url": "https://avatars.githubusercontent.com/u/7197889?v=4",
       "profile": "https://cmn.nimh.nih.gov/dsst",
+      "contributions": [
+        "code"]},
+      {
+      "login": "scovitz",
+      "name": "Sydney Covitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70981267?v=4",
+      "profile": "https://github.com/scovitz",
       "contributions": [
         "code"]}
         ]
