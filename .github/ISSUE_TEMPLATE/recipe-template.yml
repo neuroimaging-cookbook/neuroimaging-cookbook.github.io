@@ -10,6 +10,7 @@ body:
     id: Description
     attributes:
       value: "Recipe Description"
+      label: Description
       description: Please describe the recipe.
       placeholder: Explain briefly how the recipe works. Provide a link to documentation of any third-party software when possible. Try to explain everything briefly, but clearly.
     validations:
