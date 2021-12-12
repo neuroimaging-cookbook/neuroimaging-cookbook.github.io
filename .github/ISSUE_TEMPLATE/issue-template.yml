@@ -23,7 +23,6 @@ body:
       label: Description
       description: What is the issue (e.g., typo, bug, inaccurate descriptions, etc.)? Please tell us what you see. What did you expect?
       placeholder: Tell us what you see!
-      value: ""
     validations:
       required: true
   - type: checkboxes
